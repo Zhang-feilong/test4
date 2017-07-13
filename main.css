@@ -1,0 +1,70 @@
+* {
+	padding:0;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	float: left;
+}
+
+h1 {
+	text-align: center;
+}
+#box {
+	margin: 30px auto;
+	width: 406px;
+	height: 406px;
+	border: 2px solid #61a0d7;
+	padding-left: 12px;
+	background: url(bg.jpg);
+}
+
+#top {
+	text-align: center;
+}
+
+#year {
+	margin:10px 0px 10px 10px;
+}
+
+#month {
+	margin: 10px 0px 10px 10px;
+}
+
+#search {
+	margin:10px;
+	background: #fff;
+	width: 80px;
+	cursor: pointer;
+}
+
+
+
+.week {
+	width: 406px;
+	height: 45px;
+	
+}
+
+.week li {
+	width: 54px;
+	height: 45px;
+	font-size: 13px;
+	line-height: 45px;
+	text-align: center;
+	border-top: 2px solid #61a0d7;
+	border-bottom: 2px solid #c8cacc;
+}
+
+.day li{
+	width: 54px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	border-bottom: 2px solid #c8cacc;
+}
+
